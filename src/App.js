@@ -1,19 +1,20 @@
-import waifu from "./images/waifu.jpg";
+
+import husky from "./images/husky.jpg";
 
 function App() {
   return (
-    <div className="App">
-      <div className="card">
-        <img src={waifu} className="card-img-top img-fluid w-50" alt="..." />
+    <div className="mx-auto my-5" style={{width: "550px"}}>
+      <div className="bg-dark text-white card">
+        <img src={husky} className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h3 className="card-title">Surajit Shaw</h3>
+          <h6 className="mt-2 card-subtitle text-warning"><small>Front-end Developer</small></h6>
+          <h6 className="card-subtitle text-secondary my-1"><small>surajit-portfolio.com</small></h6>
+          <a href="#" className="btn btn-light mt-4" style={{width: "100%"}}>Email</a>
+        </div>
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" className="btn btn-primary">
-            Go somewhere
-          </a>
+        <h3>About</h3>
+        <p className="lead">I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
         </div>
       </div>
     </div>
