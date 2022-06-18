@@ -10,7 +10,7 @@ function App() {
           <h3 className="card-title">Surajit Shaw</h3>
           <h6 className="mt-2 card-subtitle text-warning"><small>Front-end Developer</small></h6>
           <h6 className="card-subtitle text-secondary my-1"><small>surajit-portfolio.com</small></h6>
-          <a href="#" className="btn btn-light mt-4 " style={{width: "100%"}}>Email</a>l
+          <a href="https://surajit-first-portfolio.netlify.app" className="btn btn-light mt-4 " style={{width: "100%"}}>Email</a>l
         </div>
         <div className="card-body">
         <h3>About</h3>
